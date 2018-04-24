@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="video-android-1.0.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/3a7cdaab52aec92084f6ffc57ea03ae1d137fe7f/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/3a7cdaab52aec92084f6ffc57ea03ae1d137fe7f/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/3a7cdaab52aec92084f6ffc57ea03ae1d137fe7f/output/jars/libs/libjingle_peerconnection_java.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

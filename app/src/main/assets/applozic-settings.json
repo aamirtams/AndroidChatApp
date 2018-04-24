@@ -1,0 +1,78 @@
+{
+  "customMessageBackgroundColor": "#B2DFDB",
+  "sentMessageBackgroundColor": "#B2DFDB",
+  "receivedMessageBackgroundColor": "#E3F2FD",
+  "sendButtonBackgroundColor": "#2196F3",
+  "attachmentIconsBackgroundColor": "#FF03A9F4",
+  "channelCustomMessageBgColor": "#cccccc",
+
+  "sentContactMessageTextColor:": "#FFFFFFFF",
+  "receivedContactMessageTextColor": "#000000",
+  "sentMessageTextColor": "#FFFFFFFF",
+  "receivedMessageTextColor": "#000000",
+  "messageEditTextTextColor": "#000000",
+  "sentMessageLinkTextColor": "#0D47A1",
+  "receivedMessageLinkTextColor": "#1976D2",
+  "messageEditTextHintTextColor": "#bdbdbd",
+  "noConversationLabelTextColor": "#000000",
+  "conversationDateTextColor": "#333333",
+  "conversationDayTextColor": "#333333",
+  "messageTimeTextColor": "#838b83",
+  "channelCustomMessageTextColor": "#666666",
+
+  "sentMessageBorderColor": "#FF03A9F4",
+  "receivedMessageBorderColor": "#FFFFFFFF",
+  "channelCustomMessageBorderColor": "#cccccc",
+
+  "audioPermissionNotFoundMsg": "",
+  "noConversationLabel": "You have no conversations",
+  "noSearchFoundForChatMessages": "No conversation found",
+  "totalRegisteredUserToFetch": 200,
+  "maxAttachmentAllowed": 30,
+  "maxAttachmentSizeAllowed": 30,
+  "totalOnlineUsers": 0,
+
+  "conversationContactImageVisibility": true,
+  "locationShareViaMap": true,
+  "startNewFloatingButton": false,
+  "startNewButton": true,
+  "onlineStatusMasterList": false,
+  "startNewGroup": true,
+  "imageCompression": true,
+  "inviteFriendsInContactActivity": true,
+  "registeredUserContactListCall": false,
+  "createAnyContact": true,
+  "showActionDialWithOutCalling": false,
+  "profileLogoutButton": false,
+  "userProfileFragment": true,
+  "messageSearchOption": true,
+  "hideGroupAddMembersButton": false,
+  "hideGroupNameUpdateButton": false,
+  "hideGroupExitButton": false,
+  "hideGroupRemoveMemberOption": false,
+  "profileOption": true,
+  "broadcastOption":true,
+
+  "restrictedWordMessage": "",
+  "hideAttachmentButton": false,
+  "groupUsersOnlineStatus": true,
+
+  "launchChatFromProfilePicOrName": true,
+
+  "refreshOption": true,
+  "deleteOption": true,
+  "blockOption": true,
+  "muteOption": true,
+
+  "logoutOption": true,
+
+  "logoutPackageName": "",
+  "attachmentOptions": {
+    ":location": true,
+    ":camera": true,
+    ":file": true,
+    ":audio": true,
+    ":video": true,
+    ":contact": true
+  }
+}

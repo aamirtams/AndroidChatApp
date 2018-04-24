@@ -1,0 +1,121 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.applozic.mobicomkit.sample.EcommerceFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/app_logo"
+            android:layout_marginTop="10dp"
+            android:onClick="zamIconClick"
+            android:background="?selectableItemBackgroundBorderless"/>
+
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#EEEEEE"
+            android:layout_weight="0"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginStart="10dp"
+            android:visibility="visible"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            android:padding="10dp"
+            android:weightSum="3">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:onClick="onLunchFacebookApp"
+                android:src="@drawable/facebook_icon"
+                android:layout_weight="1"
+                android:background="?selectableItemBackgroundBorderless"
+                />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="?selectableItemBackgroundBorderless"
+                android:onClick="onLunchInstaApp"
+                android:src="@drawable/insta_logo" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:onClick="onLunchTwitterApp"
+                android:src="@drawable/twitter_logo"
+                android:layout_weight="1"
+                android:background="?selectableItemBackgroundBorderless"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            android:padding="10dp"
+            android:weightSum="3">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:onClick="onLunchLinkedInApp"
+                android:src="@drawable/linkedin"
+                android:layout_weight="1"
+                android:background="?selectableItemBackgroundBorderless"
+                />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="?selectableItemBackgroundBorderless"
+                android:onClick="onLunchSnapChatApp"
+                android:src="@drawable/snapchat" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:onClick="onLunchYouTubeApp"
+                android:src="@drawable/youtube"
+                android:layout_weight="1"
+                android:background="?selectableItemBackgroundBorderless"
+                />
+        </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>
